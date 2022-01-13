@@ -1,0 +1,129 @@
+
+/* common */
+
+body {
+  margin: 0;
+}
+
+img {
+vertical-align: bottom;
+}
+
+h1,p {
+  margin: 0;
+}
+
+/* header */
+
+header{
+  background: rgb(226, 223, 223);  
+    background-image: url(../img/back.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+header .container{
+
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+}
+
+header .container img {
+  pointer-events:none;
+}
+
+header .container div + div {
+  margin-left: 32px;
+}
+
+header h1{
+  padding: 10px 0px;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+header p {
+  padding: 10px 0px;
+}
+
+header ul{
+  list-style: none;
+  margin: 15px 0;
+  padding: 0;
+  display: flex;
+}
+
+header ul li + li {
+  margin-left: 8px;
+
+}
+
+/* main */
+
+main .container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+main h1 {
+  padding: 60px;
+  text-align: center;
+}
+
+h1,h2,p {
+  margin: 0;
+}
+
+main section + section {
+margin-top: 60px;
+}
+
+main h2 {
+margin-top: 30px;
+text-align: center;
+}
+
+main p {
+  margin-top: 30px;
+  padding: 0px 120px;
+  line-height: 2.2;
+}
+
+.btn {
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 35px;
+  padding: 15px;
+  background: skyblue;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn > a {
+  display: block;
+  text-decoration:none;
+  color: white;
+}
+
+/* footer */
+
+footer {
+  margin-top: 50px;
+  padding: 60px;
+  text-align: center;
+  background-color: rgb(66, 62, 62);
+  color: white;
+}
